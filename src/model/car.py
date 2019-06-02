@@ -1,10 +1,12 @@
-from src.model.iterator import Iterator
+from src.model.iterator import *
 
 
 class Car:
     iterator = Iterator()
 
     def __init__(self):
+        super().__init__()
+
         self.__id = next(self.iterator)
         self.__status = True
 

@@ -1,4 +1,4 @@
-from src.model.city.car import Car
+from src.model.car import Car
 from src.model.iterator import Iterator
 
 
